@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hexlet-code"
+version = "0.1.0"
+description = ""
+authors = "Artem"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12.7"
+pandas = "^2.2.2"
+matplotlib = "^3.9.2"
+requests = "^2.32.3"
+python-dotenv = "^0.21.0"
+
+[tool.poetry.scripts]
+main = "main:run_all"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
